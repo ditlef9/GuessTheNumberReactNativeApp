@@ -1,12 +1,21 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Text, TextInput, Button } from 'react-native';
 
 const StartGameScreen = props => {
     return (
         <View style={styles.screen}>
-            <Text>xx</Text>
-        </View>
+            <Text style={styles.h2}>Start a new game!</Text>
 
+            <View style={styles.inputContainer}>
+                <Text>Please enter a number</Text>
+                <TextInput />
+                <View style={styles.horizontalView}>
+                    <Button title="Reset" onPress={() => {}} />
+                    <BUtton title="Confirm" onPress={() => {}} />
+                </View>
+
+            </View>
+        </View>
     );
 };
 
@@ -15,6 +24,20 @@ const styles = StyleSheet.create({
         flex: 1, /*takes all the space left */
         padding: 10,
         alignItems: 'center',
+    },
+    h2: {
+        color: 'white',
+        fontSize: '110%',
+        marginVertical: '10'
+    },
+    inputContainer: {
+
+    },
+    horizontalView: {
+        flexDirection: 'row',
+        width: '100%',
+        justifyContent: 'space-between', /* Button on left and right side of row */
+        paddingHorizontal: 15
     }
 
 });
