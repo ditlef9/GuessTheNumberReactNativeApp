@@ -4,6 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from './components/Header'
 import StartGameScreen from './screens/StartGameScreen'
 
+/* 3:45 */
+
 export default function App() {
   return (
     <View style={styles.container}>
