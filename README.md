@@ -9,11 +9,11 @@ if it is higher or lower. The computer will then guess again.
 
 
 # 3. How to Install on local machine
-a. Install node-x64.msi from https://nodejs.org/en/<br />
-b. Install Git from https://git-scm.com/download/<br />
-c. Install Visual Studio Code from https://code.visualstudio.com/download<br />
+a. Install node-x64.msi from https://nodejs.org/en/ <br />
+b. Install Git from https://git-scm.com/download/ <br />
+c. Install Visual Studio Code from https://code.visualstudio.com/download <br />
 d. Install Visual Studio Tool Expo Tools from https://marketplace.visualstudio.com/items?itemName=byCedric.vscode-expo <br />
-e. Install Visual Studio Tool React Native Tools from https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native<br />
+e. Install Visual Studio Tool React Native Tools from https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native <br />
 f. Install Visual Studio Tool ES7 React/Redux/GraphQL/React-Native snippets from https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets <br />
 g. Install Visual Studio Tool Prettier - Code formatter from https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode <br />
 h. Install Visual Studio Tool Material Icon Theme from https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
