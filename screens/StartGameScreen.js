@@ -7,11 +7,11 @@ const StartGameScreen = props => {
             <Text style={styles.h2}>Start a new game!</Text>
 
             <View style={styles.inputContainer}>
-                <Text>Please enter a number</Text>
+                <Text style={styles.text}>Please enter a number</Text>
                 <TextInput />
                 <View style={styles.horizontalView}>
                     <Button title="Reset" onPress={() => {}} />
-                    <BUtton title="Confirm" onPress={() => {}} />
+                    <Button title="Confirm" onPress={() => {}} />
                 </View>
 
             </View>
@@ -29,6 +29,9 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: '110%',
         marginVertical: '10'
+    },
+    text: {
+        color: 'white',
     },
     inputContainer: {
 
