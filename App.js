@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from './components/Header'
 import StartGameScreen from './screens/StartGameScreen'
 
-/* 4:13 */
+/* 4:35 */
 
 export default function App() {
   return (
