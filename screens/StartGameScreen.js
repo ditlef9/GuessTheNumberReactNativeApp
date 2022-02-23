@@ -13,7 +13,7 @@ const StartGameScreen = props => {
 
             <Card style={styles.inputContainer}>
                 <Text style={styles.text}>Please enter a number</Text>
-                <Input autoCapitalize='none' autoCorrect={false} />
+                <Input autoCapitalize="none" autoCorrect={false} keyboardType="numeric" maxLength={2} />
                 <View style={styles.horizontalView}>
                     <Button title="Confirm" onPress={() => {}} style={styles.btnSuccess} color={Colors.btnDefaultColor} />
                     <Button title="Reset" onPress={() => {}} style={styles.btnDefault} color={Colors.btnResetColor} />
